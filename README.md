@@ -14,11 +14,6 @@ npm i puppeteer
 ```
 
 ```bash
-npm i https
-# or "yarn add https"
-```
-
-```bash
 npm i puppeteer-cluster
 # or "yarn add puppeteer-cluster"
 ```
