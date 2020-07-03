@@ -1,0 +1,24 @@
+{
+  "name": "Check-HTML-element-exists-or-not",
+  "version": "1.0.0",
+  "description": "Check HTML element exists or not in multiple URLs using puppeteer.",
+  "main": "app.js",
+  "scripts": {
+    "run": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aotr/Check-HTML-element-exists-or-not.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aotr/Check-HTML-element-exists-or-not/issues"
+  },
+  "homepage": "https://github.com/aotr/Check-HTML-element-exists-or-not#readme",
+  "dependencies": {
+    "puppeteer": "^4.0.1",
+    "puppeteer-cluster": "^0.21.0"
+  }
+}
