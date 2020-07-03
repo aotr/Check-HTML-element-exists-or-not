@@ -7,7 +7,7 @@ const { Cluster } = require('puppeteer-cluster');
     'https://www.worldpranichealing.com/en/wesak/a-ceremony-in-the-himalaya/',
   ];
   // Your element name you want to find in dom element.
-  const element = '.wph-blog ul';
+  const element = '.rtpanel section ul';
 
   const cluster = await Cluster.launch({
     concurrency: Cluster.CONCURRENCY_CONTEXT,
